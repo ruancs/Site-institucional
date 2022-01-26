@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img1 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.nav-wrapper {
+    background-color: #116997;
+    height: 100px !important;
+}
+
+.brand-logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
