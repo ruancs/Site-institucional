@@ -21,8 +21,10 @@ h1 {
 
 .brand-logo {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border: 3px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
     margin-left: 20px;
     margin-top: 20px;
 }
