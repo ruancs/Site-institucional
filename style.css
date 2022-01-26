@@ -8,10 +8,32 @@ h1 {
     text-align: center;
 }
 
+.loader {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    color: #116997;
+    text-align: left;
+    font-size: 50px;
+    font-family: Roboto Mono;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    &:after {
+        content: '_';
+    }
+}
+
+#main {
+    margin-top: 250px !important;
+}
+
 #img1 {
     width: 100%;
     height: auto;
     background-size: cover;
+    opacity: 30%;
 }
 
 .nav-wrapper {
