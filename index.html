@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
 
@@ -15,7 +18,7 @@
 
 <body>
     <header>
-        <nav>
+        <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
                     <a href="#">
@@ -24,38 +27,74 @@
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="sass.html">Sobre</a></li>
                         <li>
-                            <a href="badges.html">Links</a>
+                            <a href="badges.html">Serviços</a>
                         </li>
                         <li><a href="collapsible.html">Contato</a></li>
                     </ul>
                 </div>
             </nav>
-        </nav>
+        </div>
 
         <div class="loader" id="loader"></div>
 
     </header>
 
-    <section id="main">
-        Lorem ipsum interdum dictumst litora in fames augue inceptos, potenti sed semper faucibus inceptos semper. eros libero praesent conubia consequat augue feugiat sem ad, vitae senectus neque fringilla pulvinar donec dapibus vestibulum, laoreet sit eleifend
-        potenti dolor vel senectus. dolor nulla libero dictum dictumst vitae eros sodales tortor pulvinar blandit habitasse inceptos diam curabitur, mi ut vestibulum eget dui sapien id dolor nullam quam vestibulum condimentum ligula. lectus duis lacus
-        consequat arcu molestie nec hendrerit erat et bibendum sollicitudin, class pellentesque senectus mauris enim neque dui suspendisse eget. dolor justo condimentum enim aliquam quam pretium commodo hac mauris aliquet luctus nullam vel, malesuada
-        sapien risus massa nisi aptent mauris at justo risus consequat diam. Nullam curabitur condimentum aenean libero egestas habitasse quisque, est nisi malesuada curae ultrices curabitur laoreet, varius adipiscing ligula aliquam ut lobortis. habitasse
-        gravida duis aenean tristique dapibus sodales curabitur sem sollicitudin, eleifend platea lectus fames quam ultrices lorem eu purus, vulputate molestie dapibus inceptos rhoncus elementum senectus litora. suspendisse faucibus massa posuere ultrices
-        potenti venenatis, fringilla neque viverra egestas porta. tellus consectetur habitant interdum pharetra pulvinar, curabitur ac tempus ad elementum velit, orci conubia vulputate cras. Tortor metus lacinia potenti imperdiet habitant dapibus purus
-        egestas eleifend non litora suspendisse, urna ornare himenaeos ut habitasse sodales faucibus a phasellus potenti.<br><br><br>integer hendrerit molestie ipsum torquent ultrices venenatis semper convallis, sit consequat suscipit accumsan
-        cubilia massa velit urna pharetra, cras etiam et gravida nisl elementum eget. habitant gravida ac rutrum tempus dictum neque sed arcu, in ultricies tincidunt vulputate urna elementum taciti, mollis fermentum nullam tincidunt etiam mauris nostra.
-        hac massa enim turpis hac suscipit semper vel, commodo sit himenaeos rhoncus purus vehicula, hendrerit cursus ultrices senectus mollis ut. Tristique cursus et donec conubia vestibulum varius velit porttitor nec taciti, sollicitudin aptent tempus
-        rhoncus sapien neque convallis pellentesque mi. purus euismod lacinia porta litora posuere luctus sit orci at ad, cras aliquet tincidunt litora non senectus morbi lacus ipsum, sociosqu cursus molestie rutrum aliquam convallis egestas nibh proin.
-        curabitur dictumst mattis adipiscing vulputate elementum torquent praesent ac nisi, porta massa fringilla velit nisl aliquam consectetur aenean enim etiam, tortor ut aliquam quis lorem a curae sodales. eu habitasse himenaeos elit consequat tortor
-        dui aptent, ante rutrum bibendum neque aliquet placerat, est volutpat lacus ligula varius fusce.<br><br><br> Habitant tortor proin aenean auctor cursus inceptos risus adipiscing hendrerit quisque torquent, hendrerit suscipit sem neque nec donec
-        nam ullamcorper erat. pharetra habitant tempus tortor eleifend sociosqu lorem class tellus, gravida varius posuere enim dictum gravida nullam. lectus senectus non nunc curabitur est condimentum venenatis, fermentum sem felis sagittis platea quisque
-        porta, arcu fusce faucibus suspendisse dictumst tortor. pretium suscipit adipiscing senectus nam libero purus etiam aliquam massa ut dapibus ultrices, sagittis himenaeos habitasse urna proin per felis sed sollicitudin sodales diam, tincidunt molestie
-        sit id vestibulum ullamcorper leo eget suscipit suspendisse luctus.<br>
+    <div class="row">
+
+        <div class="col s12 m6 l6">
+
+            <img src="src/img/laptop.png" alt="notebook" id="notebook">
+
+        </div>
+
+        <div class="col s12 m6 l6">
+            <section id="main">
+                <img src="src/img/computer.png" id="pc" alt="computador">
+                <h1>SOBRE A EMPRESA</h1><br>
+                <p>- A iniciativa da empresa surgiu com a demanda de solucionar problemas comuns e incomuns, agilizando a vida dos clientes, tanto em ambiente empresarial como residencial. A empresa é nova mas temos experiência de mais de 10 anos de serviços
+                    com excelência no âmbito de suporte ao cliente e desenvolvimento. Temos clientes empresariais e pessoa física, fazemos contratos que viabilizam melhor seu negócio/serviço. Faça uma avaliação sem custos e agende uma visita caso esteja
+                    passando por dificuldades com seu computador. Estamos à disposição!!
+
+                    <br>
+                    <h1>NOSSO DIFERENCIAL</h1><br>
+
+                    <p>SOMOS UMA EMPRESA REGISTRADA<br><br> Atendimento personalizado e experiência para assumir integralmente o gerenciamento do ambiente computacional.</p>
+                </p><br>
+        </div>
+
+    </div>
+
+
 
     </section>
 
+    <footer>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">RCINFO ©</h5>
+                        <p class="grey-text text-lighten-3">Todos os direitos Reservados</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Redes Sociais</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2022 RCInfo | Desenvolvido por Ruan Carlos
+                    <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+                </div>
+            </div>
+        </footer>
+    </footer>
 
 
 </body>

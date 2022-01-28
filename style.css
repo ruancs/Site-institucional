@@ -6,6 +6,14 @@
 
 h1 {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    ;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+    font-size: larger;
+    text-align: left;
 }
 
 body {
@@ -27,6 +35,21 @@ body {
     &:after {
         content: '_';
     }
+}
+
+.row {
+    margin-top: 150px;
+}
+
+#pc {
+    margin-left: 50%;
+    width: 100px;
+}
+
+#notebook {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 300px;
 }
 
 #main {
@@ -63,4 +86,8 @@ body {
     height: 200px;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.page-footer {
+    background-color: #116997 !important;
 }
