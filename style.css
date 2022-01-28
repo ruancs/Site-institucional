@@ -91,3 +91,20 @@ body {
 .page-footer {
     background-color: #116997 !important;
 }
+
+@media screen and (max-width: 600px) {
+    .loader {
+        top: 50%;
+        margin-left: 10px;
+        width: auto;
+    }
+    #notebook {
+        width: 300px;
+    }
+    #main {
+        margin-top: 50px;
+    }
+    #pc {
+        margin-left: 40%;
+    }
+}
