@@ -37,10 +37,6 @@ body {
     }
 }
 
-.row {
-    margin-top: 150px;
-}
-
 #pc {
     margin-left: 50%;
     width: 100px;
@@ -58,6 +54,19 @@ body {
     font-size: large;
     font-size: ;
     margin-top: 300px;
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 1%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+#contato {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: large;
+    margin-top: 100px;
     padding: 50px 50px;
     background-color: white;
     border-radius: 1%;
